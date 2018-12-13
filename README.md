@@ -23,6 +23,9 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
 ## Net architectures
+For DC1 network, all the layers in the discriminator are deep convolutional layers, and we use transpose convolution for  
+generator.   
+For DC2 network, the last convolutional layer is replaced by a fully connected layers.    
 
 ## Training process
 Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datasets. (All parameters and architectures are included in our final report, please check [final report](./final_report)
