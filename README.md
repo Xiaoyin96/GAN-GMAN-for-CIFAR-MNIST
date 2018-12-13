@@ -1,4 +1,4 @@
-# Project name: Extensions to Generative Adversarial Neural Networks for Image Generation
+# Extensions to Generative Adversarial Neural Networks for Image Generation
 
 ## Desciption
 This is a final project developed by Jim Jiayi Xu, Zhao Binglin, Xiufeng Zhao, Xiaoyin Yang, Liang Hou for UCSD Fall 2018 ee285 course.  
@@ -31,8 +31,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
  
+## Training process
+Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datasets.
+[](./example)
+ 
 ## 
-
- 
- 
-## User Instruction
