@@ -43,3 +43,5 @@ netX.load_state_dict(torch.load('netX.pt'))
 ```
 
 ## Evaluation method
+
+## Results
