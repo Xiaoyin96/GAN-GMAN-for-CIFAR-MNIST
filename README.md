@@ -6,6 +6,7 @@ Contact us if you have any problem:{jjx002, bzhao, x6zhao, x4yang, l7hou}@eng.uc
 
 ## Prerequisites
 We use pytorch and colab/jupyternotebook as ...
+Training on GPU GTX 1080Ti
 Below is What you need to install:
 ```
 import os
