@@ -8,15 +8,6 @@ Contact us if you have any problem:{jjx002, bzhao, x6zhao, x4yang, l7hou}@eng.uc
 We use pytorch and colab/jupyternotebook as ...
 Below is What you need to install:
 ```
-# http://pytorch.org/
-from os.path import exists
-from wheel.pep425tags import get_abbr_impl, get_impl_ver, get_abi_tag
-platform = '{}{}-{}'.format(get_abbr_impl(), get_impl_ver(), get_abi_tag())
-cuda_output = !ldconfig -p|grep cudart.so|sed -e 's/.*\.\([0-9]*\)\.\([0-9]*\)$/cu\1\2/'
-accelerator = cuda_output[0] if exists('/dev/nvidia0') else 'cpu'
-
-!pip install -q http://download.pytorch.org/whl/{accelerator}/torch-0.4.1-{platform}-linux_x86_64.whl torchvision
-
 import os
 import torch
 import torch.nn as nn
@@ -30,9 +21,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
- 
+## Net architectures
+
 ## Training process
-Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datasets.
-[](./example)
+Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datasets. (All parameters and architectures are included in our final report, please check [final report](./final_report)
+
+### training models and their repository:  
+For CIFAR-10 dataset:   
+GAN with GMAN: [DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR.ipynb)[DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR_GMAN.ipynb)    
+DCGAN with GMAN:[DC2_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC2_CIFAR.ipynb)
+
+For MNIST dataset:  
+GAN with GMAN: [DC1_MNIST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_MNIST.ipynb) [DC1_GMAN_MINST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_GMAN_MINST.ipynb)  
+DCGAN with GMAN:[DC2_MNIST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC2_MNIST.ipynb)
  
-## 
+### Trained models' parameters
+We use torch.save and torch.load to save the already trained models' parameters for furture evaluation.
+```
+torch.save(netG.state_dict(), 'netX.pt')
+netX.load_state_dict(torch.load('netX.pt'))
+```
+
+## Evaluation method
