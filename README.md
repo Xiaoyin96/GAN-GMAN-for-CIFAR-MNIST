@@ -25,7 +25,9 @@ import matplotlib.animation as animation
 ## Net architectures
 For DC1 network, all the layers in the discriminator are deep convolutional layers, and we use transpose convolution for  
 generator.   
-For DC2 network, the last convolutional layer is replaced by a fully connected layer.    
+For DC2 network, the last convolutional layer is replaced by a fully connected layer.   
+![Architecture](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjg-8n_g57fAhWMHXwKHS6ABm4QjRx6BAgBEAU&url=https%3A%2F%2Fskymind.ai%2Fwiki%2Fgenerative-adversarial-network-gan&psig=AOvVaw0jxZ-NGnu-O7Ct_JilNLjg&ust=1544832585052696)
+
 
 ## Training process
 Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datasets. (All parameters and architectures are included in our final report, please check [final report](./final_report)
