@@ -34,11 +34,11 @@ Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datas
 
 ### training models and their repository:  
 For CIFAR-10 dataset:   
-GAN with GMAN: [DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR.ipynb)[DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR_GMAN.ipynb)    
+GAN with GMAN: [DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR.ipynb)  [DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR_GMAN.ipynb)    
 DCGAN with GMAN:[DC2_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC2_CIFAR.ipynb)
 
 For MNIST dataset:  
-GAN with GMAN: [DC1_MNIST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_MNIST.ipynb) [DC1_GMAN_MINST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_GMAN_MINST.ipynb)  
+GAN with GMAN: [DC1_MNIST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_MNIST.ipynb)  [DC1_GMAN_MINST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_GMAN_MINST.ipynb)  
 DCGAN with GMAN:[DC2_MNIST.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC2_MNIST.ipynb)
  
 ### Trained models' parameters
