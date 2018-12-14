@@ -53,5 +53,8 @@ netX.load_state_dict(torch.load('netX.pt'))
 ## Results      
 ![](./Images/edited_images/DC1_MNIST_LOSS.png)   
 
-![](./Images/edited_images/DC1_MNIST_IMAGE.png)
+![](./Images/edited_images/DC1_MNIST_IMAGE.png)   
 
+![](./Images/edited_images/DC2_CIFAR_LOSS.png)   
+  
+![](./Images/edited_images/DC2_CIFAR_IMAGE.png)   
