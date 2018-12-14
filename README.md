@@ -50,11 +50,6 @@ netX.load_state_dict(torch.load('netX.pt'))
 
 ## Evaluation method
 
-## Results    
-Results of DC1 GMAN on MNIST:   
-  
-![](./Images/DC1_MNIST_GMAN_LOSS.png)    
-
-Results of DC1 GMAN on MNIST:   
+## Results      
 ![](./Images/edited_images/DC1_MNIST_LOSS.png) 
 
