@@ -62,10 +62,10 @@ The two stages of using the GAM are the training phase and the testing phase. Du
 3.Run the Demo in notebook.      
 
 ## Results      
-![](./Images/edited_images/DC1_MNIST_LOSS.png)   
+![](./Images/DC1_MNIST_LOSS.png)   
 
-![](./Images/edited_images/DC1_MNIST_IMAGE.png)   
+![](./Images/DC1_MNIST_IMAGE.png)   
 
-![](./Images/edited_images/DC2_CIFAR_LOSS.png)   
+![](./Images/DC2_CIFAR_LOSS.png)   
   
-![](./Images/edited_images/DC2_CIFAR_IMAGE.png)     
+![](./Images/DC2_CIFAR_IMAGE.png)     
