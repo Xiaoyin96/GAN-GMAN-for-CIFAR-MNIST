@@ -57,9 +57,9 @@ The two stages of using the GAM are the training phase and the testing phase. Du
     
 
 ## Demo
-Download the files(models,images)
-Upload the files to the jupyter notebook.
-Run the Demo in notebook.
+Download the files(models,images)     
+Upload the files to the jupyter notebook.      
+Run the Demo in notebook.      
 
 ## Results      
 ![](./Images/edited_images/DC1_MNIST_LOSS.png)   
