@@ -1,6 +1,6 @@
 # Extensions to Generative Adversarial Neural Networks for Image Generation
 
-## Desciption
+## Description
 This is a final project developed by Jim Jiayi Xu, Zhao Binglin, Xiufeng Zhao, Xiaoyin Yang, Liang Hou for UCSD Fall 2018 ee285 course.  
 Contact us if you have any problem:{jjx002, bzhao, x6zhao, x4yang, l7hou}@eng.ucsd.edu
 
