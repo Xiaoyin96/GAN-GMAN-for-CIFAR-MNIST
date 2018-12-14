@@ -64,10 +64,10 @@ The two stages of using the GAM are the training phase and the testing phase. Du
 (Whole runtime should be less than 30s)
 
 ## Results      
-![](./Images/DC1_MNIST_LOSS.png)   
+![](./images/DC1_MNIST_LOSS.png)   
 
-![](./Images/DC1_MNIST_IMAGE.png)   
+![](./images/DC1_MNIST_IMAGE.png)   
 
-![](./Images/DC2_CIFAR_LOSS.png)   
+![](./images/DC2_CIFAR_LOSS.png)   
   
-![](./Images/DC2_CIFAR_IMAGE.png)     
+![](./images/DC2_CIFAR_IMAGE.png)     
