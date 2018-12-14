@@ -60,7 +60,8 @@ The two stages of using the GAM are the training phase and the testing phase. Du
 ## Demo
 1.Download all the files(models,images,training)     
 2.Upload the files to the jupyter notebook.      
-3.Run the Demo in notebook with Python3.      
+3.Run the Demo in notebook with Python3.  
+(Whole runtime should be less than 30s)
 
 ## Results      
 ![](./Images/DC1_MNIST_LOSS.png)   
