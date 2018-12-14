@@ -6,6 +6,7 @@ This is a final project developed by Jim Jiayi Xu, Zhao Binglin, Xiufeng Zhao, X
 ## Prerequisites
 We use pytorch and colab/jupyternotebook as ...
 Training on GPU GTX 1080Ti
+Environment:Python3
 Below is What you need to install:
 ```
 import os
@@ -59,7 +60,7 @@ The two stages of using the GAM are the training phase and the testing phase. Du
 ## Demo
 1.Download all the files(models,images,training)     
 2.Upload the files to the jupyter notebook.      
-3.Run the Demo in notebook.      
+3.Run the Demo in notebook with Python3.      
 
 ## Results      
 ![](./Images/DC1_MNIST_LOSS.png)   
