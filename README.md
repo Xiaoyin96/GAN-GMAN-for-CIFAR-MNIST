@@ -22,17 +22,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
-## Net architectures
+## Net Architectures 
 For DC1 network, all the layers in the discriminator are deep convolutional layers, and we use transpose convolution for  
 generator.   
 For DC2 network, the last convolutional layer is replaced by a fully connected layer.   
 ![](https://skymind.ai/images/wiki/GANs.png)
 
 
-## Training process
+## Training Process
 Basicly, we use GAN, DCGAN and GMAN as training models and MNIST, CIFAR-10 datasets. (All parameters and architectures are included in our final report, please check [final report](./final_report)
 
-### training models and their repository:  
+### Training Models  
 For CIFAR-10 dataset:   
 GAN with GMAN: [DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR.ipynb)[DC1_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC1_CIFAR_GMAN.ipynb)    
 DCGAN with GMAN:[DC2_CIFAR.ipynb](https://github.com/houliang428/ECE285_Project/blob/master/Training/DC2_CIFAR.ipynb)
