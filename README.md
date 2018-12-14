@@ -48,7 +48,7 @@ torch.save(netG.state_dict(), 'netX.pt')
 netX.load_state_dict(torch.load('netX.pt'))
 ```
 
-## Evaluation method . 
+## Evaluation method 
 We use **GAM(Generative adverarial metric)** i.e.battle between GANs to evaluate GAN between their GMAN.  
 This metric requires two GAN models M1 and M2, each comprised of their constituent G and D networks.    
 
