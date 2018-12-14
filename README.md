@@ -51,5 +51,7 @@ netX.load_state_dict(torch.load('netX.pt'))
 ## Evaluation method
 
 ## Results      
-![](./Images/edited_images/DC1_MNIST_LOSS.png) 
+![](./Images/edited_images/DC1_MNIST_LOSS.png)   
+
+![](./Images/edited_images/DC1_MNIST_IMAGE.png)
 
