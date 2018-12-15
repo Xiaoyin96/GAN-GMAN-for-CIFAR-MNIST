@@ -54,7 +54,7 @@ This metric requires two GAN models M1 and M2, each comprised of their constitue
 
 M1={(G1,D1)} and M2={(G2,D2)} 
 
-The two stages of using the GAM are the training phase and the testing phase. During the training phase, you train each model by playing the GAN minimax game with its constituent networks. During the testing phase, you compare the performances of each GAN by swapping their D networks. In this testing phase, G1 attempts to trick D2 and G2 attempts to trick D1.  (You can see all the equations in our [report](./final_report).)
+The two stages of using the GAM are the training phase and the testing phase. During the training phase, you train each model by playing the GAN minimax game with its constituent networks. During the testing phase, you compare the performances of each GAN by swapping their D networks. In this testing phase, G1 attempts to trick D2 and G2 attempts to trick D1.  (You can see all the equations in our report.)
     
 
 ## Demo
